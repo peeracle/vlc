@@ -468,7 +468,7 @@
 #define HAVE_SSE2_INTRINSICS 1
 
 /* Define to 1 if <assert.h> defines static_assert. */
-#define HAVE_STATIC_ASSERT 1
+/* #undef HAVE_STATIC_ASSERT */
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
