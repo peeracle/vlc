@@ -200,9 +200,11 @@
             'posix/specific.c',
             'posix/rand.c',
           ],
-          'link_settings': [
-            '-lrt',
-          ],
+          'link_settings': {
+            'libraries': [
+              '-lrt',
+            ],
+          },
         }],
         ['OS == "mac"', {
           'sources': [
